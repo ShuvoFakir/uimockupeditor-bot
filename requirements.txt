@@ -1,3 +1,4 @@
 python-telegram-bot==20.3
 Pillow
 httpx==0.24.1
+requests
