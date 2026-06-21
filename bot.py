@@ -6,7 +6,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN = "os.environ.get("TOKEN")"  # Replace with your token
+TOKEN = "os.environ.get("TOKEN")  # Replace with your token
 
 WAITING_IMAGE = 1
 WAITING_TEXT_CHOICE = 2
